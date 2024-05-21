@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 
-const WS_URL="chessbackend-git-main-deepak-kumar-majhis-projects.vercel.app";
+const WS_URL="https://chessbackend-hu4y7ua0h-deepak-kumar-majhis-projects.vercel.app";
 
 
 export const useSocket = () => {
