@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+.DS_Store
+logs/
+generated/
+backend1@1.0.0
+skills-lock.json
+ts-node
