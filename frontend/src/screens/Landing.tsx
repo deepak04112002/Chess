@@ -1,14 +1,23 @@
 import { useNavigate } from "react-router-dom";
 import Button from "../components/Button";
+import { supabase } from "../lib/supabase";
 
 const Landing = () => {
   const navigate = useNavigate();
   return (
     <div className="flex justify-center">
-      <div className="pt-8 max-w-screen-lg">
+      <div className="pt-8 max-w-screen-lg w-full">
+        <div className="flex justify-end px-4 mb-4">
+          <button
+            onClick={() => supabase.auth.signOut()}
+            className="text-slate-400 hover:text-white text-sm"
+          >
+            Logout
+          </button>
+        </div>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
           <div className="flex justify-center">
-            <img src={"/chessboard.jpeg"} className="max-w-96" />
+            <img src="/chessboard.jpeg" className="max-w-96" />
           </div>
           <div className="pt-16">
             <div className="flex justify-center">
@@ -16,15 +25,9 @@ const Landing = () => {
                 Play Chess on the #1 Site!
               </h1>
             </div>
-
-            <div className="mt-8 flex justify-center">
-              <Button
-                onClick={() => {
-                  navigate("/game");
-                }}
-              >
-                Play Online
-              </Button>
+            <div className="mt-8 flex justify-center gap-4">
+              <Button onClick={() => navigate("/game")}>Play Online</Button>
+              <Button onClick={() => navigate("/profile")}>Profile</Button>
             </div>
           </div>
         </div>

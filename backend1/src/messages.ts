@@ -1,3 +1,10 @@
-export const INIT_GAME="init_game";
-export const MOVE="move";
-export const GAME_OVER="game_over";
+export const INIT_GAME = "init_game";
+export const MOVE = "move";
+export const GAME_OVER = "game_over";
+export const DRAW_OFFER = "draw_offer";
+export const DRAW_ACCEPT = "draw_accept";
+export const DRAW_DECLINE = "draw_decline";
+export const TIME_UPDATE = "time_update";
+export const OPPONENT_LEFT = "opponent_left";
+export const RECONNECT_GAME = "RECONNECT_GAME";
+export const AUTH = "auth";
