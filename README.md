@@ -8,7 +8,7 @@ A real-time multiplayer chess app with authentication, ELO ranking, game history
 
 ## Stack
 
-| Layer | Technology |
+| Layer | Technology. |
 |---|---|
 | Frontend | React 18, TypeScript, Vite, Tailwind CSS |
 | Backend | Node.js, WebSocket (`ws`), TypeScript |
