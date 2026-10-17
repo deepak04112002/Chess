@@ -1,6 +1,6 @@
 # Chess
 
-A real-time multiplayer chess app with authentication, ELO ranking, game history, and reconnection support.
+A real-time multiplayer chess app with authentication, ELO ranking, game history, and reconnection support..
 
 **Live**: [https://chessfrontend1-2ke2gzaa.b4a.run/](https://chessfrontend1-2ke2gzaa.b4a.run/)
 
